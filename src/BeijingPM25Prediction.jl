@@ -224,7 +224,5 @@ function analyze_results(results)
         println("  R²:   $(round(Float64(r.r2), digits=4))")
         println("  Samples: $(length(r.predictions))")
         println()
-    end
-end
-
-end  # module
+            end
+                
