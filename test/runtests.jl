@@ -1,6 +1,6 @@
 using Test
 using BeijingPM25Prediction
 
-@testset "basic" begin
-    @test isdefined(Main, :BeijingPM25Prediction)
+@testset "Basic" begin
+    @test nameof(BeijingPM25Prediction) == :BeijingPM25Prediction
 end
