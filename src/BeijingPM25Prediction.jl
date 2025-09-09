@@ -1,4 +1,4 @@
-﻿"module BeijingPM25Prediction""
+﻿module BeijingPM25Prediction
 BeijingPM25Prediction.jl
 
 A Julia package for predicting Beijing PM2.5 concentrations using Neural ODEs.
